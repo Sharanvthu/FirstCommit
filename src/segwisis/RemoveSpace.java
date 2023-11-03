@@ -1,0 +1,14 @@
+package segwisis;
+
+import java.util.Scanner;
+
+public class RemoveSpace {
+
+	public static void main(String[] args) {
+		Scanner scan= new Scanner(System.in);
+		System.out.println("Enter the sentence ");
+		String s= scan.nextLine();
+		System.out.println(s.replaceAll("\\s", ""));
+	}
+
+}
